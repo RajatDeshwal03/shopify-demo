@@ -1,12 +1,5 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+{<!-- custom-section.liquid -->
+<section class="custom-section">
+  <h2>{{ section.settings.title }}</h2>
+  <p>{{ section.settings.description }}</p>
+</section>
