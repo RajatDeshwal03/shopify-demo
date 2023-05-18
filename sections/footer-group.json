@@ -5,11 +5,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
+        "26216186-4842-490f-86e2-abee236db4ff": {
+          "type": "image",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "image": "shopify:\/\/shop_images\/logo.webp",
+            "image_width": 425,
+            "alignment": "center"
           }
         },
         "footer-1": {
@@ -28,14 +29,15 @@
         }
       },
       "block_order": [
-        "footer-0",
+        "26216186-4842-490f-86e2-abee236db4ff",
         "footer-1",
         "footer-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
